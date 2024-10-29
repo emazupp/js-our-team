@@ -6,13 +6,12 @@ h1 {
   color: #e53170 !important;
 }
 
-a {
-  text-decoration: none;
+body {
+  font-family: "Fredoka", sans-serif !important;
 }
 
-#cards-container .role,
-#cards-container .email {
-  font-size: 0.8rem;
+a {
+  text-decoration: none;
 }
 
 #cards-container .text-bg-dark {
