@@ -1,3 +1,10 @@
 #cards-container img {
   width: 100px;
 }
+a {
+  text-decoration: none;
+}
+
+#cards-container .role {
+  font-size: 0.8rem;
+}
