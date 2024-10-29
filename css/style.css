@@ -1,6 +1,11 @@
 #cards-container img {
   width: 100px;
 }
+
+h1 {
+  color: #e53170 !important;
+}
+
 a {
   text-decoration: none;
 }
@@ -8,4 +13,8 @@ a {
 #cards-container .role,
 #cards-container .email {
   font-size: 0.8rem;
+}
+
+#cards-container .text-bg-dark {
+  background-color: black !important;
 }

@@ -53,14 +53,14 @@ let card = `
 
 const cardsContainerHtml = document.getElementById("cards-container");
 
-const getElementFromArray = () => {
+const printCardFromArray = () => {
   let cardsHtml = ``;
   teamMembers.forEach((member) => {
     const fullName = member.name.toUpperCase();
     let card = `
     <div class="col-4">
     <div class="d-flex text-bg-dark">
-    <figure class="m-0 pe-2">
+    <figure class="m-0 pe-3">
     <img class="img-fluid" src=${member.img} alt="" />
     </figure>
     <div class="d-flex flex-column justify-content-center">
@@ -75,4 +75,4 @@ const getElementFromArray = () => {
   cardsContainerHtml.innerHTML = cardsHtml;
 };
 
-getElementFromArray();
+printCardFromArray();
