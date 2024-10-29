@@ -5,6 +5,7 @@ a {
   text-decoration: none;
 }
 
-#cards-container .role {
+#cards-container .role,
+#cards-container .email {
   font-size: 0.8rem;
 }

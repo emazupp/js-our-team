@@ -66,7 +66,7 @@ const getElementFromArray = () => {
     <div class="d-flex flex-column justify-content-center">
     <span class="d-flex fw-bold">${fullName}</span>
     <span class="d-flex role">${member.role}</span>
-    <span class="d-flex"><a href="mailto:${member.email}">${member.email}</a></span>
+    <span class="d-flex email"><a href="mailto:${member.email}">${member.email}</a></span>
     </div>
     </div>
     </div>`;
